@@ -9,7 +9,12 @@ In the servers.txt file you can specifiy a directory, host (IP) and pot for a se
 athena;127.0.0.1;25560
 bungee;127.0.0.1;25565
 ```
-This can be modified to run any number of servers, it is not limited to just Bukkit.
+
+
+
+This can be modified to run any number of servers, it is not limited to just Bukkit. If you with to use this software in a commercial product, please provide credit.
+
+
 
 Copyright (c) 2014 Athena MC
 
