@@ -1,3 +1,4 @@
+#!/bin/bash
 while read line;
 	do
 		name=${line%%;*}; next=${line#*;}
@@ -5,5 +6,5 @@ while read line;
 		post=${next%%;*};
 
 		cd /athena/servers/$name/
-		sh start.sh $host $port
+		./start.sh $host $port
 done < servers.txt
