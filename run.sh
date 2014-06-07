@@ -6,6 +6,6 @@ while read line;
                 port=${next%%;*};
 		
 		echo -e $name $host $port
-		cd /athena/servers/$name/
-		./start.sh $host $port
+		cd /home/servers/servers/$name/
+		sudo -u servers mark2 start
 done < servers.txt
